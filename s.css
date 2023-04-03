@@ -1,0 +1,217 @@
+.vampiro {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 0%;
+    width: 300px;
+    height: 300px;
+  }
+  
+.vampiro-superior {
+  position:relative ;
+  top: 110%;
+  left: 25%;
+  background: transparent;
+  width: 50%;
+  height: 45%;
+  border-radius: 100%;
+}
+
+.vampiro-inferior {
+    position: relative;
+  top: 50%;
+  left: 25%;
+  right: 30%;
+  bottom: 50%;
+  background: rgb(0, 0, 0);
+  width: 60%;
+  height: 75%;
+  border-radius: 100%;
+}
+
+.ala-derecha {
+    position: relative;
+  top: -146px;
+  left: -55%;
+  background: black;
+  width: 45%;
+  height: 160%;
+  border-radius: 30% 30% 120% 30%;
+  transform: rotate(125deg);
+  z-index: -1;
+}
+
+.ala-izquierda {
+  position: relative;
+  top: -225%;
+  left: 110%;
+  background: black;
+  width: 45%;
+  height: 160%;
+  border-radius: 30% 30% 30% 120%;
+  transform: rotate(-125deg);
+  z-index: -1;
+}
+
+.oreja-derecha {
+  position: relative;
+  top: -324%;
+  left: 45%;
+  background:  black;
+  width: 50%;
+  height: 50%;
+  transform: rotate(65deg);
+  border-radius: 0% 70% 60% 60%;
+}
+
+.oreja-izquierda {
+  position: relative;
+  top: -372%;
+  left: 5%;
+  background: black;
+  width: 50%;
+  height: 50%;
+  border-radius: 0% 70% 60% 60%;
+  transform: rotate(20deg);
+}
+
+
+.ojo-derecho {
+  position: relative;
+  top: -250%;
+  left: 25%;
+  background: white;
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+}
+
+.ojo-izquierdo {
+  position: relative;
+  top: -280%;
+  left: 64%;
+  background:white;
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+}
+
+.reflejo-ojos {
+  position: relative;
+  top: 35%;
+  left: 29%;
+  background: black;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+}
+
+.colmillo-derecha {
+  position: relative;
+  top: -250%;
+  left: 30%;
+  width: 0%;
+  height: 0%;
+  border-top: solid  white 10px;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-bottom: solid transparent 2px;
+}
+
+.colmillo-izquierda {
+  position: relative;
+  top: -258%;
+  left: 75%;
+  width: 0%;
+  height: 0%;
+  border-top: solid  white 10px;
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-bottom: solid transparent 2px;
+}
+
+.pico-superior {
+position: relative;
+  top: -270%;
+  left: 30%;
+  background:white;
+  width: 60%;
+  height: 5%;
+  border-radius: 0% 0% 100% 100%;
+  
+}
+.detalle-d{
+  position: relative;
+  top: -447%;
+  left: -148%;
+  width: 10%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(-47deg);
+}
+.detalle-d1{
+  position: relative;
+  top: -462%;
+  left: -110%;
+  width: 5%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(-55deg);
+}
+.detalle-d2{
+  position: relative;
+  top: -476%;
+  left: -65%;
+  width: 5%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(-55deg);
+}
+.detalle-i{
+  position: relative;
+  top: -630%;
+  left: 210%;
+  width: 5%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(47deg);
+}
+.detalle-i1{
+  position: relative;
+  top: -642%;
+  left: 180%;
+  width: 5%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(55deg);
+}
+.detalle-i2{
+  position: relative;
+  top: -657%;
+  left: 135%;
+  width: 5%;
+  height: 0%;
+  border-top: solid  transparent 40px;
+  border-left: solid transparent 40px;
+  border-right: solid transparent 40px;
+  border-bottom: solid black 40px;
+  transform: rotate(55deg);
+}
+body {
+  background:#c6faf1;
+}
