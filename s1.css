@@ -1,0 +1,15 @@
+.titulo1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(233, 101, 24);
+    text-align: center;
+}
+.subtitulo{
+    font-family: cursive;
+    color: rgb(0, 17, 255);
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(180, 241, 66);
+    text-align: center;
+}
